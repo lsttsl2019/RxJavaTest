@@ -21,5 +21,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext() , DataBindingActivity.class));
             }
         });
+
+        Button threadBtn = findViewById(R.id.th);
+        threadBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ThreadActivity.class));
+            }
+        });
+
+
     }
 }
