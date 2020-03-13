@@ -30,6 +30,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button handlerBtn = findViewById(R.id.handler_btn);
+        handlerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), HandlerActivity.class));
+            }
+        });
+
+        Button atBtn = findViewById(R.id.asynctask_btn);
+        atBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), AsynctaskActivity.class));
+            }
+        });
+
 
     }
 }

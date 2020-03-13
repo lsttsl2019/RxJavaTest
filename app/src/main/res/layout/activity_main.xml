@@ -26,5 +26,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:id="@+id/handler_btn"
+        android:text="핸들러"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+
+        />
+
+    <Button
+        android:id="@+id/asynctask_btn"
+        android:text="asynctask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="120dp"
+
+        />
 
 </RelativeLayout>
